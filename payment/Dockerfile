@@ -6,4 +6,4 @@ RUN touch /home/node/.bashrc | echo "PS1='\w\$ '" >> /home/node/.bashrc
 
 USER node
 
-WORKDIR /home/node/express
+WORKDIR /home/node/payment

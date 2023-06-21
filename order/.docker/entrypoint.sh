@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd /home/node/nest
+echo 'Starting entrypoint.sh'
+
+cd /home/node/order
 
 npm install
 npm run start:dev

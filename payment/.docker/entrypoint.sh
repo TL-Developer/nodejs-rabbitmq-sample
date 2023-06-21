@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd /home/node/express
+echo 'Starting entrypoint.sh'
+
+cd /home/node/payment
 
 npm install
 npm run start
