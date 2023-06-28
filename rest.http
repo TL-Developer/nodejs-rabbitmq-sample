@@ -1,15 +1,15 @@
-POST http://localhost:3001/express
+POST http://localhost:3001/payment
 content-type: application/json
 
 {
-    "name": "eu sou express"
+    "name": "eu sou payment"
 }
 
 ###
 
-POST http://localhost:3000/nest
+POST http://localhost:3000/order
 content-type: application/json
 
 {
-    "name": "eu sou nest"
+    "name": "eu sou order"
 }

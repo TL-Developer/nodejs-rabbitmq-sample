@@ -42,9 +42,9 @@ app.use(function(err, req, res, next) {
 });
 
 const consumer = async () => {
-  const server = new RabbitmqServer('amqp://admin:admin@rabbitmq:5672');
+  const server = new RabbitmqServer('amqp://admin:admin@localhost:5672');
   await server.start();
-  await server.consume('express', (message) => console.log(message.content.toString()));
+  await server.consume('payment', (message) => console.log(message.content.toString()));
 }
 
 consumer();
